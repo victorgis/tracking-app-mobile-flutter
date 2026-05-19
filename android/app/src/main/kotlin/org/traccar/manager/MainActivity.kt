@@ -1,0 +1,5 @@
+package precise.fleet.manager
+
+import io.flutter.embedding.android.FlutterFragmentActivity
+
+class MainActivity : FlutterFragmentActivity()
