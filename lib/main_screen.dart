@@ -102,7 +102,7 @@ class _MainScreenState extends State<MainScreen> {
   }
 
   String _getUrl() {
-    final url = _preferences.getString(_urlKey) ?? 'https://demo4.traccar.org';
+    final url = _preferences.getString(_urlKey) ?? '/api';
     return url.endsWith('/') ? url.substring(0, url.length - 1) : url;
   }
 
